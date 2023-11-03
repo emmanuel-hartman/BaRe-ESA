@@ -10,14 +10,13 @@ This Python package provides a set of tools for the comparison, matching and int
 References
 ------------
 
-
-@article{Hartman2022BaReESAAR,
-  title={BaRe-ESA: A Riemannian Framework for Unregistered Human Body Shapes},
-  author={Emmanuel Hartman and Emery Pierson and Martin Bauer and Nicolas Charon and Mohamed Daoudi},
-  journal={ArXiv},
-  year={2022},
-  volume={abs/2211.13185},
-  url={https://api.semanticscholar.org/CorpusID:253801914}
+@InProceedings{Hartman_2023_ICCV,
+    author    = {Hartman, Emmanuel and Pierson, Emery and Bauer, Martin and Charon, Nicolas and Daoudi, Mohamed},
+    title     = {BaRe-ESA: A Riemannian Framework for Unregistered Human Body Shapes},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+    month     = {October},
+    year      = {2023},
+    pages     = {14181-14191}
 }
 
 Please cite [this paper](https://openaccess.thecvf.com/content/ICCV2023/html/Hartman_BaRe-ESA_A_Riemannian_Framework_for_Unregistered_Human_Body_Shapes_ICCV_2023_paper.html) in your work.
