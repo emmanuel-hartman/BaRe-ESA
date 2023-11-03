@@ -1,46 +1,37 @@
-H2_SurfaceMatch
+BaRe-ESA
 =========
-
-
-<table>
-<tr>
-<td><img src="figures/faces.gif" height="300" /></td><td><img src="figures/skulls.gif" height="300" /></td><td><img src="figures/ankle.gif" height="300" /></td>
-</tr>
-<tr>
-<td><img src="figures/hands.gif" height="300" /></td><td><img src="figures/cat-lion.gif" height="300" /></td><td><img src="figures/pose_and_body.gif" height="350" /></td>
-</tr></center>
-</table>
 
 Description
 -----------
 
-This Python package provides a set of tools for the comparison, matching and interpolation of triangulated surfaces within the elastic shape analysis setting. It allows specifically to solve the geodesic matching and distance computation problem between two surfaces with respect to a second order Sobolev metric. In addition to basic shape matching, we develop a comprehensive statistical pipeline that allows for the computation of the Karcher means, tangent space principal component analysis, and motion transfer in the space of parametrized surfaces and in shape space. Thus, our framework is equipped to handle statistical analysis of populations of shapes. Further to improve the robustness of our model, we implement a weighted varifold matching framework for partial matching. By implementing partiality in our methods we allow for the analysis of shape populations that a include surfaces that are noisy or are missing data. Further, this adaptation allows for a more natural comparison of shapes with different mesh structures and even allows for the comparison of shapes with different topologies.
+This Python package provides a set of tools for the comparison, matching and interpolation of triangulated surfaces within the basis restricted elastic shape analysis setting. It allows specifically to solve the geodesic matching and distance computation problem between two surfaces with respect to a second order Sobolev metric. 
 
 
 References
 ------------
 
 
-    @misc{H2_match,
-      author  = {Emmanuel Hartman, Yashil Sukurdeep, Eric Klassen, Nicolas Charon, and Martin Bauer},
-      title   = {Elastic shape analysis of surfaces with second-order Sobolev metrics: a comprehensive numerical framework},  
-      url = {https://arxiv.org/abs/2204.04238},
-      publisher = {arXiv},  
-      year = {2022},
-    }
+@article{Hartman2022BaReESAAR,
+  title={BaRe-ESA: A Riemannian Framework for Unregistered Human Body Shapes},
+  author={Emmanuel Hartman and Emery Pierson and Martin Bauer and Nicolas Charon and Mohamed Daoudi},
+  journal={ArXiv},
+  year={2022},
+  volume={abs/2211.13185},
+  url={https://api.semanticscholar.org/CorpusID:253801914}
+}
 
-Please cite [this paper](https://arxiv.org/abs/2204.04238) in your work.
+Please cite [this paper](https://openaccess.thecvf.com/content/ICCV2023/html/Hartman_BaRe-ESA_A_Riemannian_Framework_for_Unregistered_Human_Body_Shapes_ICCV_2023_paper.html) in your work.
 
 Usage
 -----------
-Several scripts that demonstrate the usage of our main functions have been included in the demos folder. 
+Several scripts that demonstrate the usage of our main functions have been included in the demo folders. 
 
 
 
 Dependencies
 ------------
 
-H2Surface_Match is entirely written in Python while taking advantage of parallel computing on GPUs through CUDA. 
+BaRe-ESA is entirely written in Python while taking advantage of parallel computing on GPUs through CUDA. 
 For that reason, it must be used on a machine equipped with an NVIDIA graphics card with recent CUDA drivers installed.
 The code involves in addition the following Python libraries:
 
@@ -72,9 +63,9 @@ Contacts
 --------
     Emmanuel Hartman: ehartman(at)math.fsu.edu
 
-    Martin Bauer:     bauer(at)math.fsu.edu
+    Emery Pierson:  (TBD)
 
-    Yashil Sukurdeep: yashil.sukurdeep(at)jhu.edu
+    Martin Bauer:     bauer(at)math.fsu.edu
 
     Nicolas Charon:   ncharon1(at)jhu.edu
 
